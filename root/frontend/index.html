@@ -20,6 +20,23 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles/mainpage.css" />
+    <script src="src/scripts/mainpage.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div id="main-page">
+      <div id="main-header"></div>
+      <div id="main-body">
+        <div id="loading-bar" class="progress">
+			<div id="bar" class="progress-bar progress-bar-striped" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+      </div>
+      <div id="main-footer"></div>
+    </div>
+  </body>
 </html>
