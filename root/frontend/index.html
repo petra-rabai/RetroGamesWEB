@@ -25,8 +25,8 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="src/styles/mainpage.css" />
-    <script src="src/scripts/mainpage.js"></script>
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <script src="src/scripts/main.js"></script>
   </head>
   <body>
     <div id="main-page" class="continer-fluid">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div id="main-body">
-        <div id="hero-banner">
+        <div id="hero-banner" class="justify-cotent-center">
           <img id="hero-image"
             src="src/img/logo-transparent.png"
             class="img-fluid img-responsive"
@@ -46,17 +46,14 @@
       </div>
     </div>
     <div id="main-footer">
-      <nav class="navbar fixed-bottom">
+      <nav class="navbar navbar-expand-md fixed-bottom justify-content-center">
         <div id="main-menu">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a id="start-button" class=" btn btn-lg" href="#"><i class="fa-solid fa-play"></i> Start</a>
+              <a id="start-button" class="menu-btn btn btn-lg" href="src/pages/start.html"><i class="fa-solid fa-play"></i> Start</a>
             </li>
             <li class="nav-item">
-              <a id="maintenance-button" class="btn btn-lg" href="#"><i class="fa-solid fa-screwdriver-wrench"></i> Maintenance</a>
-            </li>
-            <li class="nav-item">
-              <a id="exit-button" class="btn btn-lg" href="#"><i class="fa-solid fa-right-from-bracket"></i> Exit</a>
+              <a id="maintenance-button" class="menu-btn btn btn-lg" href="src/pages/maintenance.html"><i class="fa-solid fa-screwdriver-wrench"></i> Maintenance</a>
             </li>
           </ul>
         </div>
