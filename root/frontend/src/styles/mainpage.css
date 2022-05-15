@@ -1,40 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
-/********************  Loading Page ************************/
-.loadFont {
-    font-family: 'Poiret One', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body{
+    background-color: bisque;
 }
-/* Progress Bar Placement & Styling */
-#progressive {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    z-index: 15;
-    top: 50%;
-    left: 50%;
-    margin: -100px 0 0 -150px;
+h1{
+    margin-top: 1em;
+    font-family: 'Macondo', cursive;
+    text-align: center;
 }
 
-.progress {
-    position: relative;
-    width: 210px;
-    height: 30px;
-    background: #9cbab4;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .progress__fill {
-    width: 0%;
-    height: 100%;
-    background: #009579;
-    transition: all 0.2s;
-  }
-  
-  .progress__text {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    transform: translateY(-50%);
-    font: bold 14px "Quicksand", sans-serif;
-    color: #ffffff;
-  }
+#hero-image{
+    height: 30%;
+    width: 30%;
+}
+
+#hero-banner{
+    text-align: center;
+}
+#main-footer{
+    text-align: center; 
+}
